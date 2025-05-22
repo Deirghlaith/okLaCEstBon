@@ -50,6 +50,7 @@ html,body {
 .container {
     height: 100vh !important; 
     width: 100% !important;
+    background-color: #FEE2C6;
     transition: background-color 0.2s;
     align-items: center;
     justify-content: center;
