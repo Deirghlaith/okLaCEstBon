@@ -218,7 +218,7 @@ a:active {
 }
 
 .gameDiv {
-    height: 100%;
+    height: 80%;
     width: 30%;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
@@ -249,9 +249,10 @@ a:active {
         height: 30%;
     }
     
-    .detail {
+    .detailDiv {
         height: 42%;
         opacity: 1;
+        visibility: visible;
     }
     
     .buttonDiv {
@@ -304,7 +305,7 @@ a:active {
 
 /* ---- GAME LOGO */
 .imgGameLogoDiv {
-    height: 62%;
+    height: 65%;
     align-items: top !important;
     vertical-align: top !important;
     padding-bottom: 10%;
@@ -322,6 +323,10 @@ a:active {
     width: 100%;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease-in-out;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .detail {
@@ -330,11 +335,8 @@ a:active {
     padding-right: 10% !important;
     
     justify-content: left !important;
-    text-align: left !important;  
-    height: 0;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-    font-size: 1empx;
+    text-align: left !important; 
+    font-size: 1em;
     font-family: Overlock;
 }
 
@@ -450,4 +452,19 @@ a:active {
             }
         }
     }
+}
+
+
+
+
+
+/*
+ * * * DÉTAIL JEUX * * *
+ */
+
+.contentDetail {
+    display: flex;
+    flex-direction: column;
+    align-content: normal;
+    flex-wrap: wrap;
 }
