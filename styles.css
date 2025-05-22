@@ -23,6 +23,18 @@
         url("assets/fonts/Oxygen-Regular.ttf")
 }
 
+@font-face{
+    font-family: "Mansalva";
+    src:
+        url("assets/fonts/Mansalva-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Overlock";
+    src:
+        url("assets/fonts/Overlock-Regular.ttf")
+}
+
 /* GENERAL */
 html,body {
     height:100%;
@@ -36,15 +48,12 @@ html,body {
     overflow-x: hidden;
 }
 
-.shortcuts {
-    font-family: GloriaHallelujah;
-}
-
 .pageTitle {
-    font-family: GloriaHallelujah !important;
+    font-family: Mansalva !important;
     font-size: 2em;
     margin-left: 5%;
     margin-top: 2vh;
+    color: #674D41;        
 }
 
 .container {
@@ -66,28 +75,129 @@ html,body {
     align-items: center;
 }
 
+
 /*
-#page1{
-    background-color: #FEE2C6;
+ * * * PAGE 1 * * *
+ */
+
+.bannerDiv {
+    position: relative;
+    height: 0;
+    width: 100%;
+    overflow: visible;
+    
+    .bannerImg {
+        width: 100vw;
+        height: 100vh;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        pointer-events: none;
+    }
 }
 
-#page2{
-    background-color: #FCDCB4;
-}
-
-#page3{
-    background-color: #9A765F;
-}
-
-.chalkLineImg {
+.shortcutDiv {
+    display: flex;
+    flex-direction: row;
     height: 5vh;
-    width: 110%;
-    margin-top: -5vh;
-    margin-left: -5%;
-    margin-right: -5%;
-}
-*/
+    gap: 1%;
+    align-items: center;
+    justify-content: end;
+    padding-top: 1%;
+    padding-right: 5%;
+    overflow: visible;
+    
+    .shortcut{
+        width: 13% !important;
+        overflow: visible;
+        font-family: Mansalva;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #674D41;
+    }
 
+    a:visited {
+        text-decoration: none;
+        color: #674D41;
+    }
+
+    a:hover {
+        text-decoration: none;
+        font-size: 24px;
+        color: #674D41;
+    }
+
+    a:active {
+        text-decoration: none;
+        color: #674D41;
+    }
+}
+
+.content {
+    display: flex;
+}
+
+.homeIdentity {
+    display: flex;
+    height: 90vh;
+    width: 60%;
+    flex-wrap: nowrap;
+    padding-left: 5%;
+    flex-direction: column;
+    
+    .homeSeparator {
+        height: 45vh;
+        width: 100%;
+    }
+    
+    .homeNameSurname {
+        height: 5vh;
+        font-family: Mansalva;
+        font-size: 2em;
+        color: #674D41;
+    }
+
+    .homeSpecialty {
+        height: 10vh;
+        font-family: Mansalva;
+        font-size: 3em;
+        color: #674D41;
+    }
+    
+    .homePitch {
+        margin-right: 5%;
+        height: 25vh;
+        font-family: Overlock;
+        font-size: 1.35em;
+        text-align: justify;
+    }
+}
+
+.diceImgDiv {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 100%;
+    align-self: flex-end;
+    justify-items: flex-end;
+    
+    .diceImg {
+        width: 25vw;
+        height: auto;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
+/*
+ * * * PAGE 2 * * *
+ */
 
 /* GAMEDIVS */
 .gameDivs {
@@ -176,7 +286,7 @@ html,body {
 
 .title {
     font-size: 180%;
-    font-family: GloriaHallelujah;
+    font-family: Mansalva;
     overflow: visible !important;
 }
 
@@ -224,7 +334,8 @@ html,body {
     height: 0;
     opacity: 0;
     transition: 0.3s ease-in-out;
-    font-size: 14px;
+    font-size: 1empx;
+    font-family: Overlock;
 }
 
 /* ---- ENGINE LOGO */
@@ -269,6 +380,8 @@ html,body {
 }
 
 
-
+/*
+ * * * PAGE 3 * * *
+ */
 
 

@@ -25,7 +25,7 @@ function initializeBGColorChange(){
       container.style.backgroundColor = "#FCDCB4";
     }
     if ("page3" === event.snapTargetBlock.id) {
-      container.style.backgroundColor = "#9A765F";
+      container.style.backgroundColor = "#ECC9A4";
     }
   });
 }
