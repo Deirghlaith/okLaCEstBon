@@ -1,0 +1,274 @@
+/* FONTS */
+@font-face{
+    font-family: "ArchitectsDaughter";
+    src:
+        url("assets/fonts/ArchitectsDaughter-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Oxygen";
+    src:
+        url("assets/fonts/Oxygen-Regular.ttf")
+}
+
+@font-face{
+    font-family: "GloriaHallelujah";
+    src:
+        url("assets/fonts/GloriaHallelujah-Regular.ttf")
+}
+
+@font-face{
+    font-family: "DynaPuff";
+    src:
+        url("assets/fonts/DynaPuff-VariableFont_wdth,wght")
+}
+
+/* GENERAL */
+html,body {
+    height:100%;
+    width:100%; 
+    margin:0; 
+    padding:0;
+    color: #626262;
+    font-family: Oxygen;
+    font-size: medium;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.shortcuts {
+    font-family: DynaPuff;
+}
+
+.pageTitle {
+    font-family: DynaPuff !important;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-top: 2vh;
+}
+
+.container {
+    height: 100vh !important; 
+    width: 100% !important;
+    transition: background-color 0.2s;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.page {
+    height: 100vh; 
+    width: 100% !important;
+    overflow: hidden;
+    scroll-snap-align: start !important;
+    align-items: center;
+}
+
+/*
+#page1{
+    background-color: #FEE2C6;
+}
+
+#page2{
+    background-color: #FCDCB4;
+}
+
+#page3{
+    background-color: #9A765F;
+}
+
+.chalkLineImg {
+    height: 5vh;
+    width: 110%;
+    margin-top: -5vh;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+*/
+
+
+/* GAMEDIVS */
+.gameDivs {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    /*
+    padding-left: 3%;
+    padding-right: 3%;
+    */
+}
+
+.gameDiv {
+    height: 100%;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center !important;
+}
+
+.gameDiv:hover {
+    margin-top: -3%;
+    
+    .titleDiv {
+        height: 10%;
+    }
+    
+    .title {
+        font-size: 140%;
+    }
+    
+    .gameTypeDiv {
+        height: 0 !important;
+        opacity: 0;
+    }
+    
+    .imgGameLogoDiv {
+        height: 30%;
+    }
+    
+    .detail {
+        height: 42%;
+        opacity: 1;
+    }
+    
+    .buttonDiv {
+        height: 15%;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    
+}
+
+.gameDiv, .titleDiv, .title, .gameTypeDiv, .gameType, .gameDiv, .gameDiv, .imgGameLogoDiv, imgEngineLogoDiv, buttonDiv, button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+/* ---- TITLE */
+.titleDiv {
+    height: 25%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    align-items: flex-end !important;
+    margin-bottom: 3%;
+    overflow: visible !important;
+}
+
+.title {
+    font-size: 180%;
+    font-family: DynaPuff;
+    overflow: visible !important;
+}
+
+/* ---- GAME TYPE */
+.gameType {
+    font-size: medium;
+    font-family: GloriaHallelujah;
+    margin: 0 !important;
+}
+
+.gameTypeDiv {
+    height: 10%;
+    opacity: 1;
+}
+
+/* ---- GAME LOGO */
+.imgGameLogoDiv {
+    height: 62%;
+    align-items: top !important;
+    vertical-align: top !important;
+    padding-bottom: 10%;
+}
+
+.imgGameLogo {
+    display: flex;
+    max-height: 90%;
+    max-width: 70%;
+}
+
+/* ---- DETAIL */
+.detailDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.detail {
+    
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    
+    justify-content: left !important;
+    text-align: left !important;  
+    width: 100% !important;
+    height: 0;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+/* ---- ENGINE LOGO */
+.imgEngineLogoDiv {
+    height: 0;
+    overflow: hidden;
+}
+
+.imgEngineLogo {
+    display: block;
+    width: 21%;
+    height: auto;
+    margin: auto;
+}
+
+/* ---- BUTTON */
+.buttonDiv {
+    position: relative;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.gameDiv .button {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff30;
+    border: hidden;
+    transition: ease-in-out .3s;
+    font-family: Oxygen !important;
+    font-size: medium !important;
+    color: inherit !important;
+}
+
+.gameDiv .button:hover {
+    background-color: #ffffff70;
+    font-size: larger !important;
+    cursor: pointer;
+}
+
+
+
+
+
