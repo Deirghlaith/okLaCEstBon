@@ -1,7 +1,7 @@
 export default class GameDiv{
-    constructor(textColor = "#232323", width = 100, color = "#000000", engine = "UE5", title = "leTitre", body = "leBody", detail = "leDetail", link = "leLien"){
+    constructor(textColor = "#232323", isButtonWorking = false, color = "#000000", engine = "UE5", title = "leTitre", body = "leBody", detail = "leDetail", link = "leLien"){
         this.textColor = textColor;
-        this.width = width;
+        this.isButtonWorking = isButtonWorking;
         this.color = color;
         this.engine = engine;
         this.title = title;
@@ -87,6 +87,12 @@ export default class GameDiv{
         const button = document.createElement("button");
         button.classList.add("button");
         button.innerText = "Détails";
+        
+        if (!this.isButtonWorking){
+            button.disabled = true;
+            button.innerText = "WIP";
+        }
+        
         button.color = this.textColor;
         buttonDiv.append(button);
         

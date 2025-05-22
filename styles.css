@@ -76,6 +76,26 @@ html,body {
     align-items: center;
 }
 
+a:link {
+    text-decoration: none;
+    color: #674D41;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #674D41;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 24px;
+    color: #674D41;
+}
+
+a:active {
+    text-decoration: none;
+    color: #674D41;
+}
 
 /*
  * * * PAGE 1 * * *
@@ -114,27 +134,6 @@ html,body {
         font-family: Mansalva;
         font-size: 20px;
         text-align: center;
-    }
-    
-    a:link {
-        text-decoration: none;
-        color: #674D41;
-    }
-
-    a:visited {
-        text-decoration: none;
-        color: #674D41;
-    }
-
-    a:hover {
-        text-decoration: none;
-        font-size: 24px;
-        color: #674D41;
-    }
-
-    a:active {
-        text-decoration: none;
-        color: #674D41;
     }
 }
 
@@ -294,7 +293,7 @@ html,body {
 /* ---- GAME TYPE */
 .gameType {
     font-size: medium;
-    font-family: GloriaHallelujah;
+    font-family: Overlock;
     margin: 0 !important;
 }
 
@@ -322,6 +321,7 @@ html,body {
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .detail {
@@ -331,7 +331,6 @@ html,body {
     
     justify-content: left !important;
     text-align: left !important;  
-    width: 100% !important;
     height: 0;
     opacity: 0;
     transition: 0.3s ease-in-out;
@@ -374,6 +373,16 @@ html,body {
     color: inherit !important;
 }
 
+.gameDiv .button:disabled {
+    background-color: #00000030;
+    cursor: not-allowed;
+}
+
+.gameDiv .button:disabled:hover {
+    background-color: #00000030;
+    cursor: not-allowed;
+}
+
 .gameDiv .button:hover {
     background-color: #ffffff70;
     font-size: larger !important;
@@ -385,4 +394,61 @@ html,body {
  * * * PAGE 3 * * *
  */
 
+.presentationContent {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    /*
+    background-color: #FEE2C6;
+    */
+    border-radius: 10px 10px 0 0; 
+    gap: 5%;
+    
+    .imgHazelDiv {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        
+        .imgHazelSeparator {
+            height: 15vh;
+        }
+
+        .imgHazel {
+            height: auto;
+        }
+    }
+    
+    .enVracDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5%;
+        padding-left: 5%;
+        
+        .enVracTitle {
+            font-family: Mansalva !important;
+            font-size: 2em;
+            margin-top: 2vh;
+            color: #674D41;
+            align-content: flex-end;
+        }
+        
+        .enVracContent {
+            font-family: Overlock;
+            font-size: 1.35em;
+            text-align: justify;
+            padding-left: 5%;
+            padding-right: 5%;
+            align-items: left;
+            
+            .mailDiv {
+                width: 0;
+                text-align: center;
+            }
+        }
+    }
+}
 
