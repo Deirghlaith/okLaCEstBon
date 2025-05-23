@@ -196,7 +196,7 @@ a:active {
         margin-right: 5%;
         height: 25vh;
         font-family: Overlock;
-        font-size: 1.35em;
+        font-size: 2em;
         text-align: justify;
     }
 }
@@ -525,6 +525,13 @@ a:active {
     padding-left: 5%;
     width: 35%;
     text-align: justify;
+    
+    .homePitch {
+        margin-right: 5%;
+        font-family: Overlock;
+        font-size: 1.5em;
+        text-align: justify;
+    }
 }
 
 .subtitleDetail {
@@ -534,7 +541,7 @@ a:active {
     flex-wrap: wrap;
     padding-left: 5%;
     font-family: Overlock;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 .categoryDetail {
@@ -545,7 +552,7 @@ a:active {
     align-content: left;
     flex-wrap: wrap;
     font-family: Mansalva;
-    font-size: 1.5em;
+    font-size: 2.6em;
 }
 
 .imgDownArrowDiv {
@@ -658,4 +665,11 @@ a:active {
     padding-left: 5%;
     width: 80%;
     text-align: justify;
+    
+    .homePitch {
+        margin-right: 5%;
+        font-family: Overlock;
+        font-size: 1.5em;
+        text-align: justify;
+    }
 }
