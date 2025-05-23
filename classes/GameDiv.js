@@ -92,6 +92,9 @@ export default class GameDiv{
             button.disabled = true;
             button.innerText = "WIP";
         }
+        else{
+            button.onclick = () => {open(this.link, "_self")};
+        }
         
         button.color = this.textColor;
         buttonDiv.append(button);
