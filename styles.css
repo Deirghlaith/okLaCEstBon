@@ -50,7 +50,7 @@ html,body {
 
 .pageTitle {
     font-family: Mansalva !important;
-    font-size: 2em;
+    font-size: clamp(1.25rem, 1vw + 0.925rem, 2.25rem); /*~34px*/
     margin-left: 5%;
     margin-top: 2vh;
     color: #674D41;        
@@ -132,7 +132,7 @@ a:active {
         width: 13% !important;
         overflow: visible;
         font-family: Mansalva;
-        font-size: 20px;
+        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -150,7 +150,7 @@ a:active {
 
     a:hover {
         text-decoration: none;
-        font-size: 24px;
+        font-size: clamp(1rem, 0.5vw + 1rem, 1.5rem); /*~24px*/
         color: #674D41;
     }
 
@@ -181,14 +181,14 @@ a:active {
     .homeNameSurname {
         height: 5vh;
         font-family: Mansalva;
-        font-size: 2em;
+        font-size: clamp(1.25rem, 1vw + 0.925rem, 2.25rem); /*~34px*/
         color: #674D41;
     }
 
     .homeSpecialty {
         height: 10vh;
         font-family: Mansalva;
-        font-size: 3em;
+        font-size: clamp(1.5rem, 1.5vw + 1rem, 3rem); /*~48px*/
         color: #674D41;
     }
     
@@ -196,7 +196,7 @@ a:active {
         margin-right: 5%;
         height: 25vh;
         font-family: Overlock;
-        font-size: 2em;
+        font-size: clamp(1.25rem, 1vw + 0.925rem, 2.25rem); /*~34px*/
         text-align: justify;
     }
 }
@@ -310,14 +310,14 @@ a:active {
 }
 
 .title {
-    font-size: 180%;
+    font-size: clamp(1.125rem, 0.75vw + 1rem, 1.75rem); /*~28px*/
     font-family: Mansalva;
     overflow: visible !important;
 }
 
 /* ---- GAME TYPE */
 .gameType {
-    font-size: medium;
+    font-size: clamp(0.875rem, 0.1vw + 0.875rem, 1rem); /*~16px*/
     font-family: Overlock;
     margin: 0 !important;
 }
@@ -360,7 +360,7 @@ a:active {
     
     justify-content: left !important;
     text-align: left !important; 
-    font-size: 1em;
+    font-size: clamp(0.875rem, 0.1vw + 0.875rem, 1rem); /*~16px*/
     font-family: Overlock;
 }
 
@@ -395,7 +395,7 @@ a:active {
     border: hidden;
     transition: ease-in-out .3s;
     font-family: Oxygen !important;
-    font-size: medium !important;
+    font-size: clamp(0.875rem, 0.1vw + 0.875rem, 1rem) !important; /*~16px*/
     color: inherit !important;
 }
 
@@ -411,7 +411,7 @@ a:active {
 
 .gameDiv .button:hover {
     background-color: #ffffff70;
-    font-size: larger !important;
+    font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem) !important; /*~20px*/
     cursor: pointer;
 }
 
@@ -456,7 +456,7 @@ a:active {
         
         .enVracTitle {
             font-family: Mansalva !important;
-            font-size: 2em;
+            font-size: clamp(1.25rem, 1vw + 0.925rem, 2.25rem); /*~34px*/
             margin-top: 2vh;
             color: #674D41;
             align-content: flex-end;
@@ -464,7 +464,7 @@ a:active {
         
         .enVracContent {
             font-family: Overlock;
-            font-size: 1.35em;
+            font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
             text-align: justify;
             padding-left: 5%;
             padding-right: 5%;
@@ -529,7 +529,7 @@ a:active {
     .homePitch {
         margin-right: 5%;
         font-family: Overlock;
-        font-size: 1.3em;
+        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
         text-align: justify;
     }
 }
@@ -541,7 +541,7 @@ a:active {
     flex-wrap: wrap;
     padding-left: 5%;
     font-family: Overlock;
-    font-size: 1.6em;
+    font-size: clamp(1.125rem, 0.75vw + 1rem, 1.75rem); /*~28px*/
 }
 
 .categoryDetail {
@@ -552,7 +552,7 @@ a:active {
     align-content: left;
     flex-wrap: wrap;
     font-family: Mansalva;
-    font-size: 2.6em;
+    font-size: clamp(1.75rem, 1.2vw + 1rem, 2.625rem); /*~42px*/
 }
 
 .imgDownArrowDiv {
@@ -585,7 +585,7 @@ a:active {
     .shortcut{
         overflow: visible;
         font-family: Mansalva;
-        font-size: 20px;
+        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -603,7 +603,7 @@ a:active {
 
     a:hover {
         text-decoration: none;
-        font-size: 24px;
+        font-size: clamp(1rem, 0.5vw + 1rem, 1.5rem); /*~24px*/
         color: #674D41;
     }
 
@@ -629,7 +629,7 @@ a:active {
         width: 100% !important;
         overflow: visible;
         font-family: Mansalva;
-        font-size: 20px;
+        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -647,7 +647,7 @@ a:active {
 
     a:hover {
         text-decoration: none;
-        font-size: 24px;
+        font-size: clamp(1rem, 0.5vw + 1rem, 1.5rem); /*~24px*/
         color: #674D41;
     }
 
@@ -669,7 +669,7 @@ a:active {
     .homePitch {
         margin-right: 5%;
         font-family: Overlock;
-        font-size: 1.3em;
+        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
         text-align: justify;
     }
 }
