@@ -132,7 +132,7 @@ a:active {
         width: 13% !important;
         overflow: visible;
         font-family: Mansalva;
-        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+        font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -411,7 +411,7 @@ a:active {
 
 .gameDiv .button:hover {
     background-color: #ffffff70;
-    font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem) !important; /*~20px*/
+    font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
     cursor: pointer;
 }
 
@@ -464,7 +464,7 @@ a:active {
         
         .enVracContent {
             font-family: Overlock;
-            font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+            font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
             text-align: justify;
             padding-left: 5%;
             padding-right: 5%;
@@ -529,7 +529,7 @@ a:active {
     .homePitch {
         margin-right: 5%;
         font-family: Overlock;
-        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+        font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
         text-align: justify;
     }
 }
@@ -552,7 +552,7 @@ a:active {
     align-content: left;
     flex-wrap: wrap;
     font-family: Mansalva;
-    font-size: clamp(1.75rem, 1.2vw + 1rem, 2.625rem); /*~42px*/
+    font-size: clamp(1.6rem, .9vw + 1rem, 2.625rem); /*~42px*/
 }
 
 .imgDownArrowDiv {
@@ -585,7 +585,7 @@ a:active {
     .shortcut{
         overflow: visible;
         font-family: Mansalva;
-        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+        font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -629,7 +629,7 @@ a:active {
         width: 100% !important;
         overflow: visible;
         font-family: Mansalva;
-        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+        font-size: clamp(0.86rem, 1.8vw + 1rem, 1.25rem); /*~20px*/
         text-align: center;
         transition: 0.1s ease-in-out;
     }
@@ -666,10 +666,11 @@ a:active {
     width: 80%;
     text-align: justify;
     
+    
     .homePitch {
         margin-right: 5%;
         font-family: Overlock;
-        font-size: clamp(0.875rem, 0.25vw + 1rem, 1.25rem); /*~20px*/
+        font-size: clamp(1.05rem, 0.1vw + 1rem, 1.15rem); /*~20px*/
         text-align: justify;
     }
 }
