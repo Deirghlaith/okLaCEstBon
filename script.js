@@ -4,7 +4,7 @@ import GameDiv from "./classes/GameDiv.js";
 // Functions
 function initializeGameDivs(){
     //constructor(textColor = "#232323", width = 100, color = "#000000", engine = "UE5", title = "leTitre", body = "leBody", detail = "leDetail", link = "leLien")
-    var testGameDiv = new GameDiv("#ffe0b0", false, "#627E57", "UE5", "Muse", "Jeu narratif", "<b>Genre :</b> Jeu narratif</br><b>Moteur :</b> Unreal Engine</br><b>Production :</b> 9 mois</br><b>Équipe :</b> 9 personnes</br><b>Rôles :</b></br>&nbsp;&nbsp;&nbsp;&nbsp;• Game design</br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation outils</br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation gameplay</br>&nbsp;&nbsp;&nbsp;&nbsp;• Narrative design</br>&nbsp;&nbsp;&nbsp;&nbsp;• Sound design");
+    var testGameDiv = new GameDiv("#ffe0b0", true, "#627E57", "UE5", "Muse", "Jeu narratif", "<b>Genre :</b> Jeu narratif</br><b>Moteur :</b> Unreal Engine 5</br><b>Production :</b> 8 mois</br><b>Équipe :</b> 9 personnes</br><b>Rôles :</b></br>&nbsp;&nbsp;&nbsp;&nbsp;• Game design</br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation outils</br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation gameplay</br>&nbsp;&nbsp;&nbsp;&nbsp;• Narrative design", "pages/museDetail/museDetail.html");
     testGameDiv.render();
     
     var testGameDiv2 = new GameDiv("#ffe0b0", true, "#722a00", "UE5", "Afnut's Awakening", "Platformer 2D", "<b>Genre :</b> Platformer 2D</br><b>Moteur :</b> Phaser</br><b>Production :</b> 3 mois</br><b>Équipe :</b> Solo</br><b>Rôles :</b></br>&nbsp;&nbsp;&nbsp;&nbsp;• Game design</br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation gameplay</br>&nbsp;&nbsp;&nbsp;&nbsp;• VFX design</br>&nbsp;&nbsp;&nbsp;&nbsp;• Sound design", "pages/momieDetail/momieDetail.html");

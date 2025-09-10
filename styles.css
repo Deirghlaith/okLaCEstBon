@@ -426,6 +426,7 @@ a:active {
     flex-direction: row;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: -5vh;
     padding-left: 5%;
     /*
     background-color: #FEE2C6;
@@ -472,7 +473,7 @@ a:active {
             
             .mailDiv {
                 width: 0;
-                text-align: center;
+                text-align: right;
             }
         }
     }
