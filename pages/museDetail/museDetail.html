@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Momie | Détail</title>
+        <link rel="stylesheet" href="../../styles.css" />
+        <!--
+        <script type="module" src="script.js"></script>
+        -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="page" id="page1">
+                <div class="pageDetail">
+                    <div class="contentDetail">
+                        <div class="headerDetail">
+                            <div class="pageTitle">
+                                Afnut's Awakening
+                            </div>
+                            <div class="subtitleDetail">
+                                Projet étudiant : 3 mois
+                            </div>
+                        </div>
+                        <div class="categoryDetail">
+                            Détails techniques
+                        </div>
+                        <div class="homePitch">
+                            <b>Genre :</b> Platformer 2D<br><b>Moteur :</b> Phaser<br><b>Production :</b> 3 mois<br><b>Équipe :</b> Solo<br><b>Rôles :</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• Game design<br>&nbsp;&nbsp;&nbsp;&nbsp;• Programmation gameplay<br>&nbsp;&nbsp;&nbsp;&nbsp;• VFX design<br>&nbsp;&nbsp;&nbsp;&nbsp;• Sound design
+                        </div>
+                        <div class="categoryDetail">
+                            Logiciels utilisés
+                        </div>
+                        <div class="homePitch">
+                            Phaser (JavaScript), Tiled, PhotoShop
+                        </div>
+                        <div class="categoryDetail">
+                            Pitch
+                        </div>
+                        <div class="homePitch">
+                            Incarnez Afnut, une momie qu'un explorateur imprudent a réveillée de son repos éternel&nbsp;! Pour y revenir, elle doit récupérer le sceptre qu'il lui a dérobé. Seulement, la larcin a activé les pièges de la pyramide. Saurez-vous distancer la vague de sable meutrière dans ce platformer 2D endiablé&nbsp;?
+                        </div>
+                        <div class="shortcutDetailDiv">
+                            <a class="shortcut" href="https://poutyhazelnut.itch.io/le-jeu-de-la-momie">Jouez au jeu !</a>
+                        </div>
+                    </div>
+                    <div class="imageDetailRight">
+                        <div class="shortcutBackDiv">
+                            <a class="shortcut" href="../../index.html#page2" style="align-self: right;">Retour</a>
+                        </div>
+                        <img class="imageDetail" src="../../assets/images/momieScreen1.png" alt="momieScreenshot">
+                    </div>
+                </div>
+                <div class="imgDownArrowDiv">
+                    <img class="imgDownArrow" src="../../assets/images/downArrow.png" alt="Suivant">
+                </div>
+            </div>
+            <div class="page" id="page2">
+                <div class="pageDetail">
+                    <div class="contentDetail2">
+                        <div class="headerDetail">
+                            <div class="pageTitle">
+                                Processus de création
+                            </div>
+                        </div>
+                        <div class="categoryDetail">
+                            Intention
+                        </div>
+                        <div class="homePitch">
+                            L’objectif du projet était de réaliser un platformer 2D sur Phaser (un moteur de jeu JavaScript) sur une période de deux mois. En tant qu’amatrice de metroidvania, j’ai voulu recréer la sensation d’urgence et de flow transmise dans les séquences de fuite des jeux Ori (Moon Studios).
+                        </div>
+                        <div class="categoryDetail">
+                            Piliers dégagés
+                        </div>
+                        <div class="homePitch">
+                            Il a semblé évident très tôt dans le processus de pré-production qu’il me serait impossible de transmettre l’intégralité de l’expérience d’un metroidvania en un temps de production aussi court. J'ai alors défini les piliers qui constituaient pour moi une expérience au plus proche de l'intention tout en minimisant les risques de scope :<br><br>
+                            &nbsp;• Platforming rapide<br>
+                            &nbsp;• Upgrades incrémentales<br>
+                            &nbsp;• Dynamique de Die &#38; Retry<br>
+                        </div>
+                        <div class="categoryDetail">
+                            Prototypage
+                        </div>
+                        <div class="homePitch">
+                            Mes piliers établis, il était temps pour moi de définir le core gameplay. À ce stade, j’imaginais le jeu comme un long couloir où le joueur serait traqué par un mur. Je n’avais pas encore d’idée d’environnement ou de lore, mais à la lumière de mes capacités de dessins limitées, j’ai pensé que prendre une approche bottom-up (concevoir les mécaniques dans un premier temps, puis m’occuper ensuite de l’habillage thématique) était plus sécurisant pour le produit final.<br><br>
+                            La première mécanique à définir, et la plus évidente, était le saut. Elle me semblait essentielle à une expérience de platforming (bien que j’aimerais un jour prendre le temps de me pencher sur un platformer sans saut !). Déboucher sur l’obtention du double saut m’a semblé être la continuité naturelle de cette mécanique. J’ai vite ajouté le double saut à la liste des mécaniques que je devrais prototyper rapidement pour que le ressenti en soit impeccable.<br>
+                            .<br>
+                            .<br>
+                            .
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="page3">
+                <div class="pageDetail">
+                    <div class="contentDetail2">
+                        <div class="categoryDetail">
+                            Prototypage (suite)
+                        </div>
+                        <div class="homePitch">
+                            J’ai ensuite réfléchi à la pertinence d’un dash dans l’expérience. D’un côté, ils sont ma mécanique préférée des metroidvanias : ils donnent une sensation de vitesse et de dynamisme incomparable, et apprendre à les maîtriser tout au long d’une expérience est une récompense en soi. De l’autre, ils apportent une quantité de contraintes, tant en termes de programmation que de level design.<br><br>
+                            Du côté du level design, il m’a semblé très contraignant de les implémenter sans qu’ils n’éclipsent totalement les autres mécaniques et métriques, notamment en allongeant artificiellement toutes les distances horizontales. Par ailleurs, une des satisfactions du dash dans les metroidvanias est qu’ils rendent la navigation dans le niveau beaucoup plus agréable lorsqu’ils sont maîtrisés. L’absence d’exploration remet ainsi en cause la pertinence de cette mécanique.<br>
+                            En programmation, ils apportent également leur lot de contraintes, notamment vis-à-vis des collisions qui peuvent vite devenir moins fiables en fonction de la vitesse choisie pour le dash.<br><br>
+                            J’ai, au cours de la phase de prototypage, quand même envisagé l’implémentation d’un dash. S’est alors ajouté un souci d’ordre technique, à savoir mon absence d’aisance avec le moteur. Il s’agissait de mon premier jeu sur Phaser, et sa popularité moindre en comparaison d’autres comme Unity ou Unreal a fatalement limité les ressources et la documentation auxquelles j’avais accès lors du développement. Après un jour et demi de bugs de collision et d’expérimentations, j’ai dû choisir entre prendre le risque d’investir un temps indéfini dans une mécanique contraignante sur plusieurs aspects, ou y renoncer. Il m’a semblé déraisonnable d’y investir davantage de temps à ce stade de la production, et le caractère modulaire que je voulais garder au long de la production m’aurait permis, en cas de besoin, de la réintroduire plus tard dans le processus.<br><br>
+                        </div> 
+                        <div class="categoryDetail">
+                                Retours et playtests
+                        </div>
+                        <div class="homePitch">
+                            Prototyper rapidement m'a permis de rapidement effectuer des playtests afin d'observer les comportements joueur. En tout, presque une centaine de playtests a été réalisée. Ceux-ci m'ont amenée, entre autres, à :<br>
+                            &nbsp;• Ajuster les mouvements de caméra à plusieurs endroits pour donner au joueur la bonne quantité d'informations avant chaque saut.<br>
+                            &nbsp;• Déplacer des obstacles pour interdire certains chemins trop simples.<br>
+                            &nbsp;• Retirer une section entière d'un niveau.<br>
+                            &nbsp;• Changer la forme du mur et en faire une vague (ce qui permet à un passage de forcer le joueur à s'arrêter un instant, laissant ainsi le temps à la caméra de dézoomer pour lui révéler les informations nécessaires à son saut).<br>
+                            &nbsp;• Et naturellement, ajuster des metrics et ajouter des feedbacks.
+                        </div>
+                        <div class="shortcutBackDiv">
+                            <a class="shortcut" href="#page1" style="align-self: right;">Retour en haut</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
